@@ -1,0 +1,85 @@
+//C. Fulton
+
+//Start and stop signifies the main method
+START 
+	DECLARATIONS
+		num policyNum, age, numberOfAccidents, month, day, year
+		string firstName, lastName
+		num POL_LOWER_LIMIT = 1000, POL_UPPER_LIMIT = 9999, EXIT = -1
+		
+		
+		OUTPUT "Welcome this program will collect data and enforce constraints on the data that is entered"
+		OUTPUT "Let's get started, please enter a policy number"
+		INPUT policyNum  //Primer
+		
+		WHILE policyNum != EXIT
+		
+			//Get Data for age, number of accidents, month, day and year using selection structures
+			OUTPUT "Please enter your age"
+			INPUT age
+			
+			OUTPUT "Please enter the number of accidents you had in the last three years"
+			INPUT numberOfAccidents
+			
+			OUTPUT "Please enter the month of the premium due date a number between 1 - 12"
+			INPUT month
+			
+			OUTPUT "Please enter the day of the premium due date a number between 1 and 31"
+			INPUT day
+			
+			OUTPUT "Please enter the year of the premium due date"
+			INPUT year
+			
+			//Determine if the policy number is between 1000 and 9999 using a decision structure
+			IF policyNum <= 1000 OR policyNum >= 9999 THEN
+				policyNum = 0
+			ENDIF
+			
+			
+			IF month < 1 OR month > 12 THEN
+			
+					month = 0
+			ENDIF
+			
+			IF day < 1 OR day > 31 THEN
+				day = 0
+				IF month == 2 AND day > 29 THEN
+					day =0
+					month = 0
+					year = 0
+					
+				ENDIF
+				IF month == 4 OR month == 6 OR month == 9 OR month == 11 AND day > 30 THEN
+					
+						day = 0
+						month = 0
+						year = 0
+						
+				ENDIF
+			ENDIF
+			
+			
+			//Decision structure to only output information is the user is above the age of 35
+			IF age > 35 THEN
+			
+				OUTPUT "Policy Num: " + policyNum
+				OUTPUT "Age: " + Age
+				OUTPUT "Number of Incidents" + numberOfAccidents
+				OUTPUT "Date of policy" + month+ "/"+ day+ "/" + year
+			ELSE
+				OUTPUT "Sorry, you do not receive output, because you are over the age of 35"
+			ENDIF
+			
+			//Ask the primer again
+			OUTPUT "If you would like to enter another policy, please enter the policy ID number or enter -1 to exit the program"
+			INPUT policyNum
+			
+			
+			
+		END
+		
+		OUTPUT "Program has concluded"
+		
+	
+
+STOP

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fulchr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-04 01:39:21 PM"/>
+        <attribute name="created" value="ZnVsY2hyO0NORDgyNTk0VEo7MjAxOS0wMS0yODswMjoxODowOCBQTTsyNTY5"/>
+        <attribute name="edited" value="ZnVsY2hyO0NORDgyNTk0VEo7MjAxOS0wMi0wNDswMTozOToyMSBQTTs1OzI2NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salesPersonID, numberOfPol" type="Integer" array="False" size=""/>
+            <declare name="highPerformer" type="Integer" array="False" size=""/>
+            <declare name="lowerLimit, higherLimit" type="Integer" array="False" size=""/>
+            <assign variable="lowerLimit" expression="5"/>
+            <assign variable="higherLimit" expression="10"/>
+            <declare name="exit" type="Integer" array="False" size=""/>
+            <assign variable="exit" expression="-999"/>
+            <output expression="&quot;Welcome to MetLife Insurance, this program determines where or not you are a high performer.  To get started, please enter a salesperson id number&quot;" newline="True"/>
+            <input variable="salesPersonID"/>
+            <while expression="salesPersonID != exit">
+                <output expression="&quot;Please enter the number policies you sold last month&quot;" newline="True"/>
+                <input variable="numberOfPol"/>
+                <if expression="numberOfPol  &gt;= lowerLimit  || numberOfPol &lt;= higherLimit">
+                    <then>
+                        <output expression="salesPersonID &amp; &quot; sold between &quot; &amp; lowerLimit &amp; &quot; and  &quot; &amp; higherLimit" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="salesPersonID &amp; &quot; did not sell between &quot; &amp; lowerLimit &amp; &quot; and  &quot; &amp; higherLimit" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;To run the program again, please enter another salesperson id number or enter -999 to exit the program&quot;" newline="True"/>
+                <input variable="salesPersonID"/>
+            </while>
+            <output expression="&quot;Thanks for using this program&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

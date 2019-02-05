@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\bin\Debug\netcoreapp2.1\metlife_console.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\bin\Debug\netcoreapp2.1\metlife_console.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\bin\Debug\netcoreapp2.1\metlife_console.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\bin\Debug\netcoreapp2.1\metlife_console.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\bin\Debug\netcoreapp2.1\metlife_console.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\metlife_console\obj\Debug\netcoreapp2.1\metlife_console.pdb
