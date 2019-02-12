@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\fulchr\\Google Drive\\Dunwoody\\CWEB1111\\Spring 2019\\class_ex\\lab_one\\lab_one.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}

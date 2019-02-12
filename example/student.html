@@ -12,8 +12,31 @@
     <h1>Output the average</h1>
     <div id="output"></div>
 
-    <script src="json_activity.js"></script>
+    <!--<script src="json_activity.js"></script>-->
     <script>
+        window.onload = function() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            // Typical action to be performed when the document is ready:
+            var student = JSON.parse(this.responseText); // Parse JSON file
+            var x, accum = 0;
+            var callingStatement = student.terms[0].courses;
+            console.log(callingStatement[1].enrollment);
+            for(x= 0; x < 1; x++){
+                accum += callingStatement[x].enrollment;
+            }
+
+            var total = accum/callingStatement.length;
+            document.getElementById('output').innerHTML = total;
+            }
+        };
+        xhttp.open("GET", "json_activity.json", true);
+       
+        xhttp.send();
+    }
+    </script>
+    <!--<script>
         var x, accum = 0;
         var callingStatement = student.terms[0].courses;
         for(x= 0; x < callingStatement.length; x++){
@@ -22,6 +45,6 @@
 
         var total = accum/3;
         document.getElementById('output').innerHTML = total;
-    </script>
+    </script>-->
 </body>
 </html>

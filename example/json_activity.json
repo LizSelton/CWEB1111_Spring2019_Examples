@@ -1,6 +1,6 @@
 
 
- var student = {
+{
      "name": "Colin",
      "age": 23,
      "city": "Brooklyn Center",
