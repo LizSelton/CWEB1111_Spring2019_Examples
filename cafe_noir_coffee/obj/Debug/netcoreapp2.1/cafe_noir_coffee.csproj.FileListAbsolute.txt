@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\bin\Debug\netcoreapp2.1\cafe_noir_coffee.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\bin\Debug\netcoreapp2.1\cafe_noir_coffee.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\bin\Debug\netcoreapp2.1\cafe_noir_coffee.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\bin\Debug\netcoreapp2.1\cafe_noir_coffee.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\bin\Debug\netcoreapp2.1\cafe_noir_coffee.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\cafe_noir_coffee\obj\Debug\netcoreapp2.1\cafe_noir_coffee.pdb
