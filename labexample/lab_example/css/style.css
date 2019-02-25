@@ -1,0 +1,540 @@
+html, body, div, span, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            abbr, address, cite, code,
+            del, dfn, em, img, ins, kbd, q, samp,
+            small, strong, sub, sup, var,
+            b, i,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section, summary,
+            time, mark, audio, video {
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-size:100%;
+                vertical-align:baseline;
+                background:transparent;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+            body{
+                font-family: 'Montserrat', sans-serif;
+            }
+            a{
+                text-decoration: none; 
+            }
+            a:after{
+                display:block;
+                content: '';
+                
+                transform: scaleX(0);  
+                transition: transform 350ms ease-in-out;
+            }
+            a:hover:after{
+                border-bottom: 1px solid black;
+                padding-bottom: 10px;
+                transform: scaleX(1); 
+                
+            }
+            a:link{
+                color: black;
+            }
+            a:visited{
+                color: black;
+            }
+            a[href="#apartment_search_block"]{
+                transition: all 4s;
+                
+            }
+            
+            h2{
+                
+                font-size: 1.4em;
+                font-weight: 300;
+                
+            }
+            h3{
+                font-size: 2.8em;
+                font-weight: 300;
+                line-height: 262px;
+            }
+            h4{
+                text-align: center;
+            }
+            #headstruct{
+                width: 100%;
+                height: 60px;
+               
+            }
+            #footstruct{
+                height: 400px;
+                width: 100%;
+                background-color: #eee;
+            }
+            #banner{
+                width: 100%;
+                background-image: url(../img/banner.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .block_contain{
+                display: flex;
+                width: 95%;
+                margin:auto;
+                margin-top: 10px;
+            }
+
+            /**Testimonial Section**/
+            section.test_qoute{
+                width: 60%;
+                margin: auto;
+                margin-top: 10%;
+            }
+            /**The container for the banner flex items**/
+            #banner_contain{
+                display: flex;
+                width: 95%;
+                margin:auto;
+                margin-top: 10px;
+                padding-top: 2%;
+                padding-bottom: 2%;
+            }
+            #logo{
+               
+                height: 50px;
+                flex: 0 0 100px;
+            }
+            #navstruct{
+                height: 50px;
+                flex: 3 0 500px;
+            }
+            #user_info{
+              
+                height: 50px;
+                flex: 0 0 250px;
+                
+            }
+            #listruct{
+                display: flex;
+                list-style-type: none;
+            }
+            /** Mobile Navigation Style rules**/
+            #navstruct_mobile{
+               display: none;
+               flex: 3 0 500px;
+           }
+           #user_info_mobile{
+              display: none;
+              height: 50px;
+              flex: 0 0 300px;
+              
+           }
+           #listruct_mobile{
+                display: none;
+           }
+           #hamburger_icon{
+            text-align: end;
+            font-size: 2em;
+            float: right;
+           }
+
+            #listruct li{
+                text-transform: uppercase;
+                flex: 0 0 130px;
+                text-align: center;
+            }
+            #user_info img{
+                margin: 0px 10px;
+            }
+
+            #user_info_mobile img{
+                margin: 0px 10px;
+            }
+            .banner_box{
+                flex: 1 0 375px;
+                height: 700px;
+                
+            }
+            .banner_box p {
+                font-size: .9em;
+                margin-top: 16px;
+                padding: 0px 50px;
+            }
+            .page_container{
+                width: 95%;
+                margin: auto;
+                height: 70px;
+            }
+            .banner_box #profile_signup{
+                color: white;
+                text-align: center;
+                width: 555px;
+                min-width: 60%;
+                height: 85%;
+                margin-left: auto;
+                padding: 2% 2% 5% 2%;
+                background-color: rgba(0, 0, 0, .7);
+            }
+            /**Form style rules**/
+            form{
+                display: flex;
+                flex-wrap: wrap;
+                
+                width: 70%;
+                height: 75%;
+                margin: auto;
+                margin-top: 2.5em;
+                text-align: left;
+                font-size: 1em;
+
+            }
+
+            #profile_signup form > input, select, button {
+                flex: 1 0 60%;
+                height: 25px;
+                outline: none;
+                
+            }
+            form > label {
+                flex: 1 0 130px;
+                height: 25px;
+                
+            }
+            form > input, select {
+                font-size: 1.1em;
+                background-color:transparent;
+                color: white;
+                border: none;
+                border-bottom: 2px solid white;
+            }
+            form > button {
+                background-color:#0098B6;
+                font-size: 1.4em;
+                color: white;
+                height: auto;
+                text-transform: uppercase;
+                border: none;
+                transition: all 2s;
+            }
+            form > button:hover {
+                background-color:#1e7485;
+                
+            }
+
+            /**Apartment section style rules**/
+
+            #filter{
+                display: flex;
+                height: 155px;
+                width: 80%;
+                padding: 2%;
+                align-items:center;
+                margin: auto;
+
+            }
+            #filter select{
+                color: black;
+                max-width: 300px;
+                font-family: 'Montserrat', sans-serif;
+                min-width: 400px;
+            }
+            #filter label{
+                
+                flex: 1 0 400px;
+            }
+            .slidecontainer {
+                width: 100%;
+            }
+            
+            .slider {
+                -webkit-appearance: none;
+                width: 100%;
+                height: 25px;
+                background: #d3d3d3;
+                outline: none;
+                opacity: 0.7;
+                -webkit-transition: .2s;
+                transition: opacity .2s;
+            }
+            
+            .slider:hover {
+                opacity: 1;
+            }
+            
+            .slider::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 25px;
+                height: 25px;
+                background: #0098B6;
+                cursor: pointer;
+            }
+            
+            .slider::-moz-range-thumb {
+                width: 25px;
+                height: 25px;
+                background: #0098B6;
+                cursor: pointer;
+            }
+
+            
+            #apartment_search_block{
+                background-color: #eee;
+                width: 100%;
+                padding: 5% 0%;
+                margin-top: 6em;
+                text-align: center;
+                
+                
+            }
+            #apartment_container{
+                display: flex;
+                width: 100%;
+                
+            }
+            .apart_struct{
+                flex: 1 0 500px;
+                
+                height: 700px;
+            }
+            #map{
+                width: 100%;
+                height: 700px;
+            }
+
+            #apart_boxes img {
+                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);
+                width: 50%;
+                justify-self: center;
+            }
+            #apart_boxes{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            #apart_boxes img{
+                height: 85px;
+                flex: 1 0 145px;
+                max-width: 150px;
+                object-fit: contain;
+                transition: all 3s;
+                
+            }
+
+            /*img[data-id="1"]{
+                grid-column: 2;
+                grid-row: 1;
+                
+            }
+            img[data-id="2"]{
+                grid-column: 1;
+                grid-row: 1
+                
+            }
+            img[data-id="3"]{
+                grid-column: 3;
+                grid-row: 1;
+                
+            }
+            img[data-id="4"]{
+                grid-column: 4;
+                grid-row:1
+            }
+            img[data-id="5"]{
+                grid-column: 1;
+                grid-row: 2;
+                
+            }*/
+
+
+    
+            /**Carousel**/
+            .carousel-cell {
+                width: 100%; /* full width */
+                height: 760px; /* height of carousel */
+             
+              }
+            /**Implementing CSS Grid**/
+            #grid_container{
+                display: grid;
+                width: 100%;
+               
+                grid-template-areas: "graphic_one graphic_one graphic_one"
+                                    "upscale luxury elegant"
+                                    "graphic_two graphic_two graphic_two";
+                grid-column-gap: 20px;
+                grid-row-gap: 80px;
+                grid-template-columns: repeat(3, 1fr);
+                
+
+            }
+
+
+            
+
+            #tb_graphic_one{
+                grid-area: graphic_one;
+            }
+            #tb_graphic_two{
+                grid-area: graphic_two;
+            }
+
+            #upscale{
+                grid-area: upscale;
+            }
+            #luxury{
+                grid-area: luxury;
+            }
+            #elegant{
+                grid-area: elegant;
+            }
+
+            /**Implementing inner boxes for grid**/
+            .grid_box{
+                color: white;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                width: 80%;
+                margin: auto;
+                height: 275px;
+                
+
+            }
+            .grid_box p{
+                display: none;
+            }
+            .grid_box:hover h3{
+                display: none;
+            }
+
+            .grid_box:hover p{
+                padding:80px 10px 0px 10px;
+                display: block;
+                line-height: 1.5em;
+            }
+            
+            .upscale_img{
+                background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/upscale.jpg);
+                background-size: cover;
+                
+            }
+
+            .upscale_img:hover{
+                background: linear-gradient( rgba(0, 152, 182, 0.623), rgba(0, 152, 182, 0.623)), url(../img/upscale.jpg);
+                background-size: cover;
+                font-size: 1.8em;
+            }
+
+
+            .luxury_img{
+                background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/luxury.jpg);
+                background-size: cover;
+            }
+            .luxury_img:hover{
+                background: linear-gradient( rgba(0, 152, 182, 0.623), rgba(0, 152, 182, 0.623)), url(../img/luxury.jpg);
+                background-size: cover;
+                font-size: 1.8em;
+            }
+            .elegant_img{
+                background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/elegant.jpg);
+                background-size: cover;
+            }
+            .elegant_img:hover{
+                background: linear-gradient( rgba(0, 152, 182, 0.623), rgba(0, 152, 182, 0.623)), url(../img/elegant.jpg);
+                background-size: cover;
+                font-size: 1.8em;
+            }
+
+            #testimonial{
+                
+                width: 100%;
+                margin-top: 7em;
+            }
+
+            #logo img{
+                max-width: 100%;
+                /* object-fit: contain; */
+                height: 100%;
+
+            }
+            #user_info img{
+                max-width: 100%;
+                /* object-fit: contain; */
+                height: 48%;
+                float: right;
+                margin: 14px;
+
+            }
+
+
+
+
+ 
+
+
+            /**Implementing Media Query for 1024 breakpoint**/
+            @media screen and (max-width: 1024px){
+                /**Hide default navigation**/
+                #navstruct{
+                   display: none;
+                }
+                #user_info{
+                    display: none;
+                }
+                
+                #navstruct_mobile{
+                    display: block;
+                    
+                }
+                #headstruct{
+                    position: sticky;
+                    background-color: white;
+                    
+                    top: 0;
+                }
+                #listruct_mobile{
+                    display: none;
+                    color: white;
+                    position: fixed;
+                    height: 100%;
+                    width: 100vw;
+                    bottom: 0;
+                    left: 0;
+                    background: rgba(0, 152, 182, 0.623);
+                    top: 55px;
+                    transition: opacity 1s;
+                    overflow: auto;
+                    
+                }
+                #listruct_mobile a:visited, a:link{
+                    
+                    color: white
+                }
+                #listruct_mobile li{
+
+                    width: 200px;
+                    margin: auto;
+                    padding: .5em;
+                    list-style-type: none;
+                    font-size: 2em;
+                    font-weight: bolder;
+
+                }
+                .banner_box:first-child {
+                    display:none;
+                }
+                .banner_box #profile_signup {
+                    margin-left: none;
+                    margin: auto;
+                }
+                #grid_container{
+                    grid-column-gap: 0px;
+                    grid-row-gap: 46px;
+                }
+                
+            }

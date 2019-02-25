@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MPLSRenters.com | Luxury Downtown Minneapolis Apartments</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Luxury Downtown Minneapolis Apartments">
+        <meta name="keywords" content="Luxury Apartments, Downtown Living, Downtown Minneapolis Apartments">
+        <meta name="author" content="C.Fulton">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/code.js"></script>
+        <!--Link to external CSS-->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--Internal CSS Style Method-->
+        <style>
+            
+        </style>
+        <!--Montserrat font from Google-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+        <!--Implementing JQuery Flickity slider plugin-->
+        <!-- JavaScript -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+    </head>
+    <body>
+        <header id="headstruct">
+            <div class="block_contain"><!--Flex container-->
+                <div id="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div><!--Flex item 1-->
+                <nav id="navstruct">
+                    <ul id="listruct">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="#apartment_search_block">Apartments</a></li>
+                        <li><a href="prop_agents.html">Agents</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav><!--flex item 2-->
+                <div id="user_info">
+                    <img src="img/notification_icon.PNG" style="margin-top: 15px;" alt="notification bell">
+                    <img src="img/person_icon.PNG" alt="profile icon">
+                </div><!--flex item 3-->
+                <!--Mobile Navigation-->
+                <nav id="navstruct_mobile"><span id="hamburger_icon"> &#9776;</span>
+                   <!-- <div id="user_info_mobile" style="display: none;">
+                        <img src="img/notification_icon.PNG" style="margin-top: 15px;" alt="notification bell">
+                        <img src="img/person_icon.PNG" alt="profile icon">
+                    </div>-->
+                    <ul id="listruct_mobile" style="display: none;">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="#apartments">Apartments</a></li>
+                        <li><a href="prop_agents.html">Agents</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav><!--flex item 2-->
+
+                <!--End of Mobile Navigation-->
+            </div><!--end of div block_contain-->
+        </header>
+        <div id="barchart"></div>
+
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+        <script type="text/javascript">
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            // Typical action to be performed when the document is ready:
+
+                var apartmentObject = JSON.parse(this.responseText); //Bring in objects and assigning them to apartmentObject variable
+
+                //var apartmentArray = apartmentObject.slice(0);
+               
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+                apartmentObject.sort(function(a,b) {
+                    return a.floor_count - b.floor_count;
+                });
+                /**console.log('By Floor Count:');
+
+                console.log(apartmentArray[0].floor_count+ " floors for " + apartmentArray[0].apartment );
+                console.log(apartmentArray[1].floor_count + " floors for " +apartmentArray[1].apartment);
+                console.log(apartmentArray[2].floor_count + " floors for " +apartmentArray[2].apartment);*/
+                //console.log(`{apartmentArray[3].floor_count} floors for {apartmentArray[3].apartment}` );
+                // Load google charts
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+
+
+                
+                // Draw the chart and set the chart values
+                function drawChart() {
+                    console.log( apartmentObject[0].apartment);
+        
+                var data = google.visualization.arrayToDataTable([
+                ['Apartments', 'Levels', { role: 'style'}], //key or legend
+                [ apartmentObject[0].apartment,  apartmentObject[0].floor_count, '#FECE00'],
+                [  apartmentObject[1].apartment,   apartmentObject[1].floor_count, '#0375B4'],
+                [ apartmentObject[2].apartment ,  apartmentObject[2].floor_count, '#007849'],
+                [ apartmentObject[3].apartment ,  apartmentObject[3].floor_count, '#262228']
+
+                
+                ]);
+                
+                // Optional; add a title and set the width and height of the chart
+                var options = {'title':'Apartment Floor Count Chart', 'width':550, 'height':400};
+                
+                // Display the chart inside the <div> element with id="piechart"
+                var chart = new google.visualization.BarChart(document.getElementById('barchart'));
+                chart.draw(data, options);
+                }
+            }
+        };
+        xhttp.open("GET", "js/apartment.json", true);
+        xhttp.send();
+
+
+        </script>
+    
+
+    </body>
+</html>
