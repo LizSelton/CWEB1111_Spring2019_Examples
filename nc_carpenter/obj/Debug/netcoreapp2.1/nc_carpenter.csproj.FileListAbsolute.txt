@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\bin\Debug\netcoreapp2.1\nc_carpenter.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\bin\Debug\netcoreapp2.1\nc_carpenter.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\bin\Debug\netcoreapp2.1\nc_carpenter.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\bin\Debug\netcoreapp2.1\nc_carpenter.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\bin\Debug\netcoreapp2.1\nc_carpenter.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\nc_carpenter\obj\Debug\netcoreapp2.1\nc_carpenter.pdb
