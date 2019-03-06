@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\bin\Debug\netcoreapp2.1\humboldt_homes.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\bin\Debug\netcoreapp2.1\humboldt_homes.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\bin\Debug\netcoreapp2.1\humboldt_homes.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\bin\Debug\netcoreapp2.1\humboldt_homes.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\bin\Debug\netcoreapp2.1\humboldt_homes.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\humboldt_homes\obj\Debug\netcoreapp2.1\humboldt_homes.pdb
