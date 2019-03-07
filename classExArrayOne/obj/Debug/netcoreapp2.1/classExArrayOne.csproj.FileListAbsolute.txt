@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\bin\Debug\netcoreapp2.1\classExArrayOne.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\bin\Debug\netcoreapp2.1\classExArrayOne.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\bin\Debug\netcoreapp2.1\classExArrayOne.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\bin\Debug\netcoreapp2.1\classExArrayOne.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\bin\Debug\netcoreapp2.1\classExArrayOne.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\classExArrayOne\obj\Debug\netcoreapp2.1\classExArrayOne.pdb
