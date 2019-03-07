@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\bin\Debug\netcoreapp2.1\JumpinJiveEx.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\bin\Debug\netcoreapp2.1\JumpinJiveEx.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\bin\Debug\netcoreapp2.1\JumpinJiveEx.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\bin\Debug\netcoreapp2.1\JumpinJiveEx.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\bin\Debug\netcoreapp2.1\JumpinJiveEx.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\JumpinJiveEx\obj\Debug\netcoreapp2.1\JumpinJiveEx.pdb
