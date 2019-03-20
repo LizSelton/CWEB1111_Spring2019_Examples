@@ -54,6 +54,10 @@ namespace chapt6_extra_credit
         int targetAge, booksWritten;
         string EXIT = "STOP";
         int [] bookCount = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+        int[] AGE_RANGE = {3, 8, 11, 14};
+        int [] AGE_COUNT = {0,0,0,0};
+        string[] AGE_RANGE_TEXT = {"In range 0 to 2 age range", "In range 3 to 7 age range", "In range 11 through 13 age range", "14 or older"};
+        int x;
         int AGE_LOWER_LIMIT = 0, AGE_UPPER_LIMIT = 16, BOOK_COUNT_LOWER_LIMIT = 0, BOOK_COUNT_UPPER_LIMIT = 40;
         
         
@@ -80,16 +84,24 @@ namespace chapt6_extra_credit
                 targetAge = Convert.ToInt32(Console.ReadLine());
             }
 
-            //SEQUENCE structure that allows us to increment the array by 1
-            bookCount[booksWritten] += 1;
+            //Algorithm that determines how many authors have written for a particular age range.
+            //Looping structure that determines the index of range.
+            x = 3;
+            while (targetAge < AGE_RANGE[x] && x > 0){
+                x = x-1;
+            }
+
+            AGE_COUNT[x]= AGE_COUNT[x] + 1;
+
+           
 
             System.Console.WriteLine($"To enter another author, please enter the authors name or enter '{EXIT}' to exit the program");
             authorName = Console.ReadLine();
         }
-
-        for(var i = 0; i < bookCount.Length; i++){
-            System.Console.WriteLine($"{bookCount[i]} has been written by {i+1} author");
-        }
+            Console.Clear();
+            for(var i = 0; i < AGE_COUNT.Length; i++){
+                System.Console.WriteLine($"{AGE_COUNT[i]}  {AGE_RANGE_TEXT[i]}");
+            }
         
         }//End of main
         static string houseKeeping(){
