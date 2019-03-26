@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\bin\Debug\netcoreapp2.1\WNBA.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\bin\Debug\netcoreapp2.1\WNBA.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\bin\Debug\netcoreapp2.1\WNBA.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\bin\Debug\netcoreapp2.1\WNBA.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\bin\Debug\netcoreapp2.1\WNBA.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\WNBA\obj\Debug\netcoreapp2.1\WNBA.pdb
