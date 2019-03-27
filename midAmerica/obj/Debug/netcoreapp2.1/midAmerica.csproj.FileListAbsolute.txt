@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\bin\Debug\netcoreapp2.1\midAmerica.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\bin\Debug\netcoreapp2.1\midAmerica.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\bin\Debug\netcoreapp2.1\midAmerica.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\bin\Debug\netcoreapp2.1\midAmerica.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\bin\Debug\netcoreapp2.1\midAmerica.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\midAmerica\obj\Debug\netcoreapp2.1\midAmerica.pdb
