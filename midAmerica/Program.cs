@@ -30,25 +30,27 @@ namespace midAmerica
 
 
                 //SEQUENCE - Get the number of zones crossed
-                System.Console.WriteLine("Please enter the number of zones crossed");
-                zonesCrossed = Convert.ToInt32(Console.ReadLine());
+                zonesCrossed = getNumberOfZones();
+                zonesCrossed = checkZones(zonesCrossed);
 
+               
 
                 //SEQUENCE Get Cost
-                total  = PASS_CHART[numberOfPassengers-1, zonesCrossed];
+                total = getPrice(zonesCrossed, numberOfPassengers, PASS_CHART);
 
-                System.Console.WriteLine($"For {numberOfPassengers} passengers and {zonesCrossed} zones crossed, your ticket charge will be {total.ToString("c")}");
+                output(numberOfPassengers, zonesCrossed, total );
+
 
 
                 //Get Primer
-                System.Console.WriteLine($"To check another price, please enter the number of passengers or enter {EXIT} to exit the program");
-                numberOfPassengers = Convert.ToInt32(Console.ReadLine());
+                numberOfPassengers = getPrimer();
+                
 
                 
             }
 
             //Notify the user that program has ended
-            System.Console.WriteLine("End of Program");
+            conclude();
         }//End of main
 
 
@@ -56,6 +58,7 @@ namespace midAmerica
         static int getPrimer(){
             int numberOfPassengers;
             System.Console.WriteLine("Welcome, this program will calculate the cost of your bus fare based on the number of passengers and zones entered");
+            System.Console.WriteLine($"To check price, please enter the number of passengers or enter -1 to exit the program");
             numberOfPassengers = Convert.ToInt32(Console.ReadLine());
             return numberOfPassengers;
         }
@@ -66,6 +69,38 @@ namespace midAmerica
                     pass = Convert.ToInt32(Console.ReadLine());
                 }
             return pass;
+        }
+
+        static int checkZones(int zones){
+                while(zones < 1 || zones > 3){
+                    System.Console.WriteLine("Invalid entry, please enter a value thats between 1 and 4");
+                    zones = Convert.ToInt32(Console.ReadLine());
+                }
+            return zones;
+        }
+
+        static int getNumberOfZones(){
+            int zonesCrossed;
+            System.Console.WriteLine("Please enter the number of zones crossed");
+              return  zonesCrossed = Convert.ToInt32(Console.ReadLine());
+        }
+
+        static double getPrice(int zones, int pass, double [ , ] PASS_CHART){
+
+
+
+            double total  = PASS_CHART[pass-1, zones];
+            return total;
+
+        }
+
+        static void output(int pass, int zones, double total){
+            
+                System.Console.WriteLine($"For {pass} passengers and {zones} zones crossed, your ticket charge will be {total.ToString("c")}");
+        }
+
+        static void conclude(){
+            System.Console.WriteLine("End of Program");
         }
     }
 }
