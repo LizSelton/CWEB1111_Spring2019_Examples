@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\bin\Debug\netcoreapp2.1\chapt_eight_ec.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\bin\Debug\netcoreapp2.1\chapt_eight_ec.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\bin\Debug\netcoreapp2.1\chapt_eight_ec.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\bin\Debug\netcoreapp2.1\chapt_eight_ec.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\bin\Debug\netcoreapp2.1\chapt_eight_ec.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\chapt_eight_ec\obj\Debug\netcoreapp2.1\chapt_eight_ec.pdb

@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\bin\Debug\netcoreapp2.1\hr_payroll.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\bin\Debug\netcoreapp2.1\hr_payroll.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\bin\Debug\netcoreapp2.1\hr_payroll.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\bin\Debug\netcoreapp2.1\hr_payroll.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\bin\Debug\netcoreapp2.1\hr_payroll.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\hr_payroll\obj\Debug\netcoreapp2.1\hr_payroll.pdb
