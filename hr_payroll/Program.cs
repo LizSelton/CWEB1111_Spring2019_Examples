@@ -11,7 +11,7 @@ namespace hr_payroll
             int deptNum, numbOfHoursWorked;
             double hourlyRate, salary;
             string EXIT = "EXIT";
-
+            
             string[] DEPART_NAMES = new String[7];
 
             DEPART_NAMES[0] = "Personnel";
@@ -80,7 +80,7 @@ namespace hr_payroll
             deptNum = Convert.ToInt32(Console.ReadLine());
 
             //Calling method to Defensively program to ensure value is between 1 and 6
-            checkDepartment(deptNum);
+            deptNum = checkDepartment(deptNum);
             Console.Clear();
 
             return deptNum;
