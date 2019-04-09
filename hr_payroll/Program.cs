@@ -31,14 +31,25 @@ namespace hr_payroll
             do{
                 //get department module
                 deptNum = getDepartment(employeeName, DEPART_NAMES);
-                System.Console.WriteLine(deptNum);
+
+                //get hourly pay
+
+                //get number of hours worked
 
 
+                //calculate Salary
+
+                //Increment department payout
 
 
+                //reprompt primer
                 
 
+
+
             }while(employeeName != EXIT);
+
+            //output summary of payout
 
         }//end of main
 
@@ -53,6 +64,8 @@ namespace hr_payroll
 
         }
 
+
+        //returns a valid department number that has been defensively programmed.
         static int getDepartment(string name, string[] DEPT){
             int deptNum;
             //Looping structure - iterate through DEPT names for end-user knows which department to select
@@ -62,7 +75,19 @@ namespace hr_payroll
             System.Console.WriteLine($"{name} please enter your deparment number from the list above");
             deptNum = Convert.ToInt32(Console.ReadLine());
 
+            //Calling method to Defensively program to ensure value is between 1 and 6
+            checkDepartment(deptNum);
             Console.Clear();
+
+            return deptNum;
+        }
+
+        static int checkDepartment(int deptNum){
+            //Defensively program to ensure value is between 1 and 6 using looping structure
+            while(deptNum < 0 || deptNum > 6){
+                System.Console.WriteLine("Invalid Entry, Please enter a number between 0 and 6");
+                deptNum = Convert.ToInt32(Console.ReadLine());
+            }
 
             return deptNum;
         }
