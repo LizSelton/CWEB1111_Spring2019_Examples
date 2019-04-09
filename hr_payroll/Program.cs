@@ -9,7 +9,7 @@ namespace hr_payroll
             //DECLARATIONS
             string employeeName;
             int deptNum, numbOfHoursWorked;
-            double hourlyRate;
+            double hourlyRate, salary;
             string EXIT = "EXIT";
 
             string[] DEPART_NAMES = new String[7];
@@ -33,24 +33,28 @@ namespace hr_payroll
                 deptNum = getDepartment(employeeName, DEPART_NAMES);
 
                 //get hourly pay
+                hourlyRate= getHourlyRate();
 
                 //get number of hours worked
-
+                numbOfHoursWorked = getHoursWorked();
 
                 //calculate Salary
+                salary = calculateSalary(hourlyRate, numbOfHoursWorked);
 
                 //Increment department payout
+                deptPayout = adjustDeptPayout(salary, deptNum,  deptPayout);
 
-
+                //output info
+                output(employeeName, deptNum, hourlyRate, numbOfHoursWorked, salary, DEPART_NAMES);
                 //reprompt primer
-                
+                employeeName = reprompt();
 
 
 
             }while(employeeName != EXIT);
 
             //output summary of payout
-
+            outputReport(deptPayout, DEPART_NAMES);
         }//end of main
 
         static string welcome(){
@@ -90,6 +94,58 @@ namespace hr_payroll
             }
 
             return deptNum;
+        }
+
+        static double getHourlyRate(){
+            double hourlyRate;
+            System.Console.WriteLine("Please enter your hourly rate");
+            hourlyRate = Convert.ToDouble(Console.ReadLine());
+
+            return hourlyRate;
+        }
+
+        static int getHoursWorked(){
+            int hoursWorked;
+            System.Console.WriteLine("Please enter the number of hours you worked");
+            hoursWorked = Convert.ToInt32(Console.ReadLine());
+
+            return hoursWorked;
+        }
+
+        static double calculateSalary(double hourlyRate, int numbOfHoursWorked){
+
+            double salary;
+            salary = hourlyRate * numbOfHoursWorked;
+
+            return salary;
+        }
+
+        static double[] adjustDeptPayout(double salary, int deptNum,  double [] deptPayout){
+            
+            deptPayout[deptNum] += salary;
+
+            return deptPayout;
+        }
+
+        static void output(string employeeName, int dept, double hourlyRate, int numberOfHoursWorked, double salary, string [] DEPT_NAMES){
+            System.Console.WriteLine($"{employeeName} from department {DEPT_NAMES[dept]} worked {numberOfHoursWorked} at a rate of {hourlyRate.ToString("c")} and earned a salary of {salary.ToString("c")}. ");
+        }
+
+
+        static string reprompt(){
+
+            string name;
+            System.Console.WriteLine("To enter another employee, please enter thier name or enter 'EXIT' to generate summary");
+            name = Console.ReadLine();
+
+            return name;
+        }
+
+        static void outputReport(double [] deptPayout, string[] DEPT_NAMES){
+
+            for(var i = 0; i < deptPayout.Length; i++){
+                System.Console.WriteLine($"{DEPT_NAMES[i]} will payout {deptPayout[i].ToString("c")}");
+            }
         }
     }
 }
