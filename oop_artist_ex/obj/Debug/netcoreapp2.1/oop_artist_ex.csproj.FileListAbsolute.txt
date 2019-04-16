@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\bin\Debug\netcoreapp2.1\oop_artist_ex.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\bin\Debug\netcoreapp2.1\oop_artist_ex.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\bin\Debug\netcoreapp2.1\oop_artist_ex.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\bin\Debug\netcoreapp2.1\oop_artist_ex.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\bin\Debug\netcoreapp2.1\oop_artist_ex.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\oop_artist_ex\obj\Debug\netcoreapp2.1\oop_artist_ex.pdb
