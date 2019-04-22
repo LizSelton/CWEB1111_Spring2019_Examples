@@ -9,19 +9,32 @@ namespace oop_artist_ex
         {
             
             Artist anArtist = new Artist();  //Instantiation
+            Artist anArtistTwo = new Artist();  //Instantiation
+            Artist [] aListOfArtist = new Artist[3];
 
+            for(var x = 0; x < aListOfArtist.Length; x++){
+                aListOfArtist[x] = new Artist("Van Gogh", "Canvas Painting", "Painter", 1000.00, 3);
+
+                /* aListOfArtist[x].Name  = "Van Gogh";
+                aListOfArtist[x].Specialty ="Canvas Painting";
+                aListOfArtist[x].TypeOfArtist = "Painter";
+                aListOfArtist[x].HourlyFee =1000.00;
+                aListOfArtist[x].AvgAnnualJobs =3; */
+
+
+            }
+
+            for(var i = 0; i < aListOfArtist.Length; i++){
+                System.Console.WriteLine(aListOfArtist[i].ToString() + "\n");
+            }
            
 
-            anArtist.setName("Van Gogh");
-            anArtist.setSpecialty("Canvas Painting");
-            anArtist.setTypeOfArtist("Painter");
-            anArtist.setHourlyFee(1000.00);
-            anArtist.setAvgAnnualJobs(3);
+
             
 
            /**  System.Console.WriteLine( $"Name : {anArtist.getName()}  Specialty: {anArtist.getSpecialty()} Type Of Artist: {anArtist.getTypeOfArtist()} Hourly Fee: {anArtist.getHourlyFee()}  Est. Annual Jobs: {anArtist.getAvgAnnualJobs()}  Estimated Annual Payout: {anArtist.getEstimatedAnnualPayout().ToString("c")}");**/
 
-           Console.WriteLine(anArtist.ToString());
+          // Console.WriteLine(anArtist.ToString() + " \n " + anArtistTwo.ToString());
             
         }
     }
@@ -29,78 +42,46 @@ namespace oop_artist_ex
     public class Artist{
         
         //DECLARING ATTRIBUTES EACH ARTIST WILL HAVE
-        private string name;
-        private string  specialty;
-        private string typeOfArtist;
+        public string Name {get; set;}
+        public string  Specialty {get; set;}
+        public string TypeOfArtist {get; set;}
 
-        private double hourlyFee;
+        public double HourlyFee {get; set;}
 
-        private int avgAnnualJobs;
+        public int AvgAnnualJobs {get; set;}
 
-        private double estimatedAnnualPayout;  //only need a getter here
+        private double EstimatedAnnualPayout; //only need a getter here
 
-        //GETTER and SETTERS
-        //SETTING name
-        public void setName(string aName){
-            name = aName;
-        }
-
-        //Getting name
-        public string getName(){
-            return name;
-        }
-
-        public void setHourlyFee(double fee){
-            hourlyFee = fee;
-        }
-
-        //Getting name
-        public double getHourlyFee(){
-            return hourlyFee;
-        }
-
-        public void setAvgAnnualJobs(int avgJobs){
-            avgAnnualJobs = avgJobs;
-            calcEstimatedAnnualPayout();
-        }
-
-        public int getAvgAnnualJobs(){
-            return avgAnnualJobs;
-        }
 
         public double getEstimatedAnnualPayout(){
-            return estimatedAnnualPayout;
+            return EstimatedAnnualPayout;
         }
 
-        //setting speciality
-        public void setSpecialty(string spec){
-            specialty = spec;
+        //default Constructor
+
+        public Artist(){
 
         }
 
-        //getting specialty
-        public string getSpecialty(){
-            return specialty;
-        }
+        public Artist(string name, string specialty, string typeOfArtist, double hourlyFee, int avgannualjobs){
+            Name = name;
 
-        public void setTypeOfArtist(string type){
-            typeOfArtist = type;
+            Specialty = specialty;
+            TypeOfArtist = typeOfArtist;
+            HourlyFee = hourlyFee;
+            AvgAnnualJobs = avgannualjobs;
+            calcEstimatedAnnualPayout();
         }
-
-        public string getTypeOfArtist(){
-            return typeOfArtist;
-        }
-
         //Working Method is going to calculate the estimatedAnnualPayout
 
         private void calcEstimatedAnnualPayout(){
-            estimatedAnnualPayout = hourlyFee * avgAnnualJobs; 
+            EstimatedAnnualPayout = HourlyFee * AvgAnnualJobs; 
         }
 
         //Inherited method derived from Object class
         public override string ToString(){
 
-            return String.Format($"Name: { name } Specialty: { specialty} Type of Artist: { typeOfArtist} Hourly Fee: { hourlyFee} Average Annual Jobs: {avgAnnualJobs} Estimate Annual Payout: {estimatedAnnualPayout.ToString("c")} ");
+            return String.Format($"Name: { Name } Specialty: { Specialty} Type of Artist: { TypeOfArtist} Hourly Fee: { HourlyFee} Average Annual Jobs: {AvgAnnualJobs} Estimate Annual Payout: {EstimatedAnnualPayout.ToString("c")} ");
 
         }
 
