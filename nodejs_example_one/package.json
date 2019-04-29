@@ -1,0 +1,21 @@
+{
+  "name": "testpack",
+  "version": "1.0.0",
+  "description": "Simple App for class purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "testapp",
+    "walkthrough"
+  ],
+  "author": "C.Fulton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}

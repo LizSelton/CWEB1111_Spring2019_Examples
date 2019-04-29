@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\bin\Debug\netcoreapp2.1\geico_insurance.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\bin\Debug\netcoreapp2.1\geico_insurance.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\bin\Debug\netcoreapp2.1\geico_insurance.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\bin\Debug\netcoreapp2.1\geico_insurance.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\bin\Debug\netcoreapp2.1\geico_insurance.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\geico_insurance\obj\Debug\netcoreapp2.1\geico_insurance.pdb
