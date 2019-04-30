@@ -11,11 +11,11 @@ namespace geico_insurance
         static void Main(string[] args)
         {
             //DECLARATIONS
-            int EXIT = -1;
+            int EXIT = -1;  //Sentinel  Sequence
 
            
            
-            int policyNum, userInput;
+            int policyNum, userInput; //Sequence
 
             policyNum = houseKeeping(); //Calling or involking the housekeeping method
             while(!(policyNum == EXIT)){
@@ -27,7 +27,7 @@ namespace geico_insurance
                 userInput = validatePolicySelection(userInput);  //Calling or involking
 
                 //Module that sets the premium, pass in user Input variable
-                setPremium(userInput, policyNum, userInput);  //Call or involk
+                setPremium( policyNum, userInput);  //Call or involk
 
                 policyNum = getPrimer();
             }
@@ -84,11 +84,11 @@ namespace geico_insurance
             return input;
         }
 
-        static void setPremium(int polSelection,int polNum, int input ){
+        static void setPremium(int polNum, int input ){
             double premiumCost;
             string policyTypeValue;
             //Decision structure to determine is they have health or auto
-            if(polSelection == 1){
+            if(input == 1){
                 premiumCost = HEALTH_POLICY_COST;
                 policyTypeValue = "HEALTH";
             }else{
