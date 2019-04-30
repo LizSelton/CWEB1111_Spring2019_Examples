@@ -1,0 +1,11 @@
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.csprojAssemblyReference.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.csproj.CoreCompileInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.AssemblyInfoInputs.cache
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.AssemblyInfo.cs
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\bin\Debug\netcoreapp2.1\MagazineInClassEx.deps.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\bin\Debug\netcoreapp2.1\MagazineInClassEx.runtimeconfig.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\bin\Debug\netcoreapp2.1\MagazineInClassEx.runtimeconfig.dev.json
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\bin\Debug\netcoreapp2.1\MagazineInClassEx.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\bin\Debug\netcoreapp2.1\MagazineInClassEx.pdb
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.dll
+C:\Users\fulchr\Google Drive\Dunwoody\CWEB1111\Spring 2019\class_ex\MagazineInClassEx\obj\Debug\netcoreapp2.1\MagazineInClassEx.pdb
